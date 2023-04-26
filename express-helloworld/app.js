@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World! NEW POD con recursos\n');
+  res.send('Hello World! NEW-POD con recursos\n');
 });
 app.get('/Alex', function(req, res) {
   res.send('Hello ALex!\n');
